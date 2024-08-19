@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { GreetBtn } from "@/components/GreetBtn";
+---
+
+<Layout title="Schneider Cornerstone Tools.">
+	<main class="bg-amber-600">
+		<h1>Welcome to <span class="text-gradient">Tauri</span></h1>
+		<p class="instructions">
+			To get started...
+		</p>
+		<GreetBtn client:load />
+	</main>
+</Layout>
